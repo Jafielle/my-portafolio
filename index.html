@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jafielle – Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              background: "#121212",
+              text: "#EAEAEA",
+              lavender: "#B298DC",
+              forest: "#3C5146",
+              lilac: "#7D5BA6",
+              softlavender: "#E5E1F2",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="bg-background text-text relative overflow-x-hidden">
+    <!-- Glow background -->
+    <div id="cursor-glow"></div>
+
+    <!-- Hero -->
+    <header
+      class="min-h-screen flex flex-col items-center justify-center text-center px-6 relative z-10"
+    >
+      <h1 class="text-5xl sm:text-6xl font-bold text-lavender mb-4">
+        Hi, I’m Jafielle
+      </h1>
+      <p class="text-lg sm:text-xl max-w-xl">
+        Coding ideas into digital experiences that feel intuitive and alive.
+      </p>
+      <div class="mt-10 animate-bounce text-lilac">↓ Scroll to explore</div>
+    </header>
+
+    <!-- Projects -->
+    <section class="py-20 px-6 space-y-12">
+      <h2 class="text-3xl font-semibold text-softlavender text-center">
+        Selected WordPress Projects
+      </h2>
+
+      <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
+        <div
+          class="bg-forest text-white rounded-lg shadow-lg p-6 transition transform hover:scale-105"
+        >
+          <h3 class="text-xl font-bold mb-2">Phoenix Eye Consulting</h3>
+          <p class="text-sm">
+            A modern business site designed in Brizy Pro and customized for a
+            remote-first engineering firm.
+          </p>
+          <a href="#" class="inline-block mt-4 text-lavender underline"
+            >View Project</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 text-center text-sm text-lilac">
+      &copy; 2025 Jafielle. Crafted with care.
+    </footer>
+
+    <script src="scripts/interaction.js"></script>
+  </body>
+</html>
