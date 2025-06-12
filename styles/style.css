@@ -10,7 +10,6 @@
     transparent 60%
   );
   transform: translate(-50%, -50%);
-  transition: transform 0.1s ease-out;
   transition: transform 0.02s ease-out;
   z-index: 0;
 }
