@@ -57,7 +57,7 @@ mi-portafolio/
 
 > Made with care by **Abril Gómez (a.k.a. Jafielle)**  
 > GitHub: [@Jafielle](https://github.com/Jafielle)  
-> Email: *your@email.com*
+> Email: abrilgomez.aray@gmail.com
 
 ---
 
