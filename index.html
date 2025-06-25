@@ -25,13 +25,18 @@
     </script>
   </head>
   <body class="bg-background text-text relative overflow-x-hidden">
-    <!-- Glow background -->
+
+    <!-- Optional: Glow background -->
     <div id="cursor-glow"></div>
 
     <!-- Hero -->
     <header
       class="min-h-screen flex flex-col items-center justify-center text-center px-6 relative z-10"
+      id="hero"
     >
+      <!-- Spotlight reveal effect -->
+      <div id="spotlight"></div>
+
       <h1 class="text-5xl sm:text-6xl font-bold text-lavender mb-4">
         Hi, I’m Jafielle
       </h1>
@@ -67,7 +72,7 @@
           </a>
         </div>
 
-        <!-- Servivir -->
+        <!-- Servicios Vivir -->
         <div
           class="bg-forest text-white rounded-lg shadow-lg p-6 transition transform hover:scale-105"
         >
@@ -93,6 +98,7 @@
       &copy; 2025 Jafielle. Crafted with care.
     </footer>
 
+    <!-- JavaScript -->
     <script src="scripts/interaction.js"></script>
   </body>
 </html>
