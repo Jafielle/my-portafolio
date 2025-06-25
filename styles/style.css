@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  --mask: radial-gradient(circle at -999% -999%, white 0px, transparent 0px);
+}
+
 body {
   background-color: #121212;
   color: #eaeaea;
@@ -58,9 +62,11 @@ body {
   pointer-events: none;
 
   /* spotlight mask controlled by JS */
-  mask-image: var(--mask, none);
-
+  mask-image: var(--mask);
+  mask-repeat: no-repeat;
+  mask-size: 100% 100%;
 }
+
 /* Fade out the spotlight mask smoothly near the bottom */
 #hero::after {
   content: "";

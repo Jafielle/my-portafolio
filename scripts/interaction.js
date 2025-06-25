@@ -1,3 +1,7 @@
+// Inicializa el spotlight fuera de la pantalla
+document.documentElement.style.setProperty("--x", "-999%");
+document.documentElement.style.setProperty("--y", "-999%");
+
 const glow = document.getElementById("cursor-glow");
 const hero = document.getElementById("hero");
 
