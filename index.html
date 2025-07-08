@@ -24,8 +24,6 @@
       };
     </script>
   </head>
-  <body class="bg-background text-text relative overflow-x-hidden">
-
     <!-- Optional: Glow background -->
     <div id="cursor-glow"></div>
 
@@ -49,19 +47,24 @@
     <!-- Projects -->
     <section class="py-20 px-6 space-y-12">
       <h2 class="text-3xl font-semibold text-softlavender text-center">
-        Selected WordPress Projects
       </h2>
 
       <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
         <!-- Phoenix Eye Consulting -->
-        <div
-          class="bg-forest text-white rounded-lg shadow-lg p-6 transition transform hover:scale-105"
-        >
-          <h3 class="text-xl font-bold mb-2">Phoenix Eye Consulting</h3>
+        <div class="bg-forest text-white rounded-xl overflow-hidden shadow-lg p-6 transform transition hover:scale-[1.02]">
+          <!-- Imagen única, completa con efecto zoom -->
+          <div class="image-hover-zoom aspect-video">
+            <img
+              src="assets\phoenyxeye\phoenyxeye desk.png"
+              class="w-full h-full object-cover"
+              alt="Phoenix Eye Consulting"
+            />
+          </div>
+
+          <!-- Contenido -->
+          <h3 class="text-xl font-bold mt-4 mb-2">Phoenix Eye Consulting</h3>
           <p class="text-sm">
-            A clean and modern business website developed in WordPress with
-            Brizy Pro, designed for an engineering firm specialized in
-            structural, water and civil solutions.
+            A clean and modern business website developed in WordPress with Brizy Pro, designed for an engineering firm specialized in structural, water and civil solutions.
           </p>
           <a
             href="https://phoenixeyeconsulting.com/"
@@ -72,11 +75,46 @@
           </a>
         </div>
 
+
+        <!-- AQMall bot -->
+        <div class="bg-forest text-white rounded-xl overflow-hidden shadow-lg p-6 transform transition hover:scale-[1.02]">
+          <!-- Imagen única, completa con efecto zoom -->
+          <div class="image-hover-zoom aspect-video">
+            <img
+              src="assets\AQMallBot\AQMall bot top.jpeg"
+              class="w-full h-full object-cover"
+              alt="AQMall AI-Bot"
+            />
+          </div>
+
+          <!-- Contenido -->
+          <h3 class="text-xl font-bold mt-4 mb-2">Air Quality Mall AI-Bot</h3>
+          <p class="text-sm">
+            Custom AI chatbot powered by OpenAI API, designed to recommend air filters based on user-defined criteria such as size, budget, and MERV rating.
+          </p>
+          <!--<a
+            href="https://serviciosvivir.co/"
+            target="_blank"
+            class="inline-block mt-4 text-lavender underline"
+          >
+            Visit Site
+          </a> -->          
+        </div>
+
+
         <!-- Servicios Vivir -->
-        <div
-          class="bg-forest text-white rounded-lg shadow-lg p-6 transition transform hover:scale-105"
-        >
-          <h3 class="text-xl font-bold mb-2">Servicios Vivir</h3>
+        <div class="bg-forest text-white rounded-xl overflow-hidden shadow-lg p-6 transform transition hover:scale-[1.02]">
+          <!-- Imagen única, completa con efecto zoom -->
+          <div class="image-hover-zoom aspect-video">
+            <img
+              src="/assets/servivir/servivir desk.png"
+              class="w-full h-full object-cover"
+              alt="Servicios Vivir Desktop"
+            />
+          </div>
+
+          <!-- Contenido -->
+          <h3 class="text-xl font-bold mt-4 mb-2">Servicios Vivir</h3>
           <p class="text-sm">
             Full WordPress site for a healthcare provider specialized in
             diagnostic imaging services including MRI, CT scans, and specialized
@@ -90,6 +128,7 @@
             Visit Site
           </a>
         </div>
+
       </div>
     </section>
 
